@@ -1,0 +1,11 @@
+#mystr = "This is a example of string"
+print("Enter a string")
+mystr = input()
+lowerMystr = mystr.lower()
+print(mystr)
+print(lowerMystr)
+print(mystr.upper())
+print(mystr.find("example"))
+print(len(mystr))
+print(mystr.count("is"))
+print(mystr.replace("string","text"))
